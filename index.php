@@ -8,6 +8,9 @@
 		<h1>Despliegue de aplicaciones LAMP</h1>
 		<?php
 			phpinfo();
+			for ($i=0; $i < 20; $i++) { 
+				echo $i . " Joses muy ...";
+			}
 		?>
 	</body>
 </html>
